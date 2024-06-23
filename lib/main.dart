@@ -1,4 +1,4 @@
-import 'package:day8/page2.dart';
+
 import 'package:flutter/material.dart';
 void main() {
   runApp( MaterialApp(home: MainApp(),debugShowCheckedModeBanner: false,));
@@ -69,6 +69,7 @@ class _MainAppState extends State<MainApp> {
          );
        }
     }
+// ignore: must_be_immutable
 class homepage extends StatelessWidget {
    homepage({super.key});
   var stores = [
@@ -115,6 +116,7 @@ class foodstore extends StatelessWidget {
       );
   }
 }
+// ignore: must_be_immutable
 class jClothes  extends StatelessWidget {
   jClothes ({super.key});
   var stores = [
@@ -175,6 +177,7 @@ class Clothes extends StatelessWidget {
       ),
     );
   }
+  // ignore: must_be_immutable
   class fkowers  extends StatelessWidget {
   fkowers ({super.key});
   var stores = [
